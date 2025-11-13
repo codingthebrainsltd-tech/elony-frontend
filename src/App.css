@@ -1,0 +1,24 @@
+/* Smooth animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply fade-in animation */
+main {
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Beautiful text shadows for headings */
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 0 2px 10px rgba(139, 92, 246, 0.1);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
